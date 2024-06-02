@@ -15,7 +15,7 @@ body { /* styling for all body elements */
 
 /* styling containers */
 .body {
-    background-color: #fff;
+    background-color: red; /* was #fff */
     border: 1px solid #ccc;
     border-radius: 10px; /* rounder corners */
     box-shadow: 0 8px 50px rgba(0, 0, 0, 5); /* adds mild shadow */
