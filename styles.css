@@ -1,7 +1,8 @@
 body { /* styling for all body elements */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
     background-color: #ffffff; /* was hsl(0, 0%, 98%)*/
-    color: #333333; /* was #333 -->*/
+    color: black;
     margin: 0;
     padding: 0;
     display: flex; /* flex box */
@@ -31,7 +32,7 @@ body { /* styling for all body elements */
     text-align: center;
 }
 
-.description, .descriptions, .ingredients {
+.description, .directions, .ingredients {
     font-size: large;
     line-height: 1.6; /* line spacing */
 }
@@ -76,3 +77,57 @@ hr { /* styling for horizontal rule */
     border-radius: 10px; /* rounder corners */
     width: 100%; /* outside margins pulled towards the middle */
    }
+
+.nav_bar {
+    border: 2px solid #000000;
+    background-color: #ffffff; /* was #fff */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav_bar a:hover,
+.nav_bar a.active {
+    color: #ffca28;
+}
+
+.form {
+    text-align: center; /* Center the text in the form */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+.form_h2 {
+    color: #ffca28; /* Change the font color of the form header */
+}
+
+.form_name label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.form_name input,
+.form_name textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
